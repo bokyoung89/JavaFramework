@@ -8,7 +8,7 @@ public class Lotto {
 		
 		//랜덤 함수 시작
 		
-		//int형 배열 random을 생성하고 6개가 들어갈 공간을 만듬
+		//int형 배열 random을 생성하고 6개가 들어갈 공간을 만듦.
 		int[] intArray = new int[7];
 		
 		for(int i=0; i<intArray.length; i++) {
