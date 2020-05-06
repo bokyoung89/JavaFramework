@@ -1,4 +1,4 @@
-package day0506.ex3.IInterface;
+package day0506.ex3.Interface;
 
 public class Main {
 	
@@ -7,5 +7,4 @@ public class Main {
 		p.run();
 		p.jump();
 	}
-
 }

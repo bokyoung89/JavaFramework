@@ -1,4 +1,4 @@
-package day0506.ex3.IInterface;
+package day0506.ex3.Interface;
 
 public class Player implements Exercise{
 	
