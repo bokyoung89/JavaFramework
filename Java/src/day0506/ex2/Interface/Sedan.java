@@ -1,6 +1,6 @@
 package day0506.ex2.Interface;
 
-public class Sedan extends Car implements PassangerModel{
+public class Sedan extends Car implements PassengerModel{
 	
 	public Sedan(String name) {
 		super(name);

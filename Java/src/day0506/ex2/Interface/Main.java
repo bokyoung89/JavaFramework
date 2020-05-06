@@ -26,6 +26,21 @@ public class Main {
 		u1.getOff();
 		u1.load();
 		u1.unload();
+		
+		//===Reference 1===
+		System.out.println("===Reference 1===");
+		Car cs = new Sedan("Audi");
+		System.out.println("자동차=" + cs.getName());
+		Sedan sedan1 = (Sedan) cs;	//casting은 상위 클래스 --> 하위 클래스로 변환
+		sedan1.getOn();
+		sedan1.getOff();
+
+		//===Reference 2=== 
+		System.out.println("===Reference 2===");
+		PassengerModel ps = new Sedan("BMW");
+		//System.out.println("자동차=" + ps.getName());	//에러
+		ps.getOn();
+		ps.getOff();
 	}
 
 }

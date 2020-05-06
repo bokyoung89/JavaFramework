@@ -1,6 +1,6 @@
 package day0506.ex2.Interface;
 
-public class Suv extends Car implements PassangerModel, TruckModel  {
+public class Suv extends Car implements PassengerModel, TruckModel  {
 
 	public Suv(String name) {
 		super(name);
@@ -15,10 +15,10 @@ public class Suv extends Car implements PassangerModel, TruckModel  {
 	}
 	
 	public void load() {
-		System.out.println(getName() + "에 짐을 싣다.");
+		System.out.println(getName() + "에서 짐을 싣다.");
 	}
 	
 	public void unload() {
-		System.out.println(getName() + "에 짐을 내리다.");
+		System.out.println(getName() + "에서 짐을 내리다.");
 	}
 }
