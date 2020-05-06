@@ -4,6 +4,13 @@ public class String1 {
 
 	public static void main(String[] args) {
 		
+		/*	String 클래스
+		*	1. 일련의 문자들의 집합을 처리한다.
+		*	2. String 객체의 내용은 변경될 수 없다.
+		*	3. String 객체의 내용을 읽거나 변경할 수 있도록 메소드를 제공한다.(위치 검색, 내용 비교, 추출 등)
+		*	4. 컴파일러는 ""를 만나면 자동으로 String 객체로 변환한다.
+		*	5. 다른 데이터 형으로 변환이 가능
+		*/
 		String str1 = "ABCD";
 		String str2 = "abcd";
 		String str3 = "Good Morning";
